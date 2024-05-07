@@ -17,26 +17,48 @@ size               = 13
 offset.x           = 0
 offset.y           = 2
 
-[colors]
-primary.background = '0x1a1b26'
-primary.foreground = '0xc0caf5'
-normal.black       = '0x15161e'
-normal.red         = '0xf7768e'
-normal.green       = '0x9ece6a'
-normal.yellow      = '0xe0af68'
-normal.blue        = '0x7aa2f7'
-normal.magenta     = '0xbb9af7'
-normal.cyan        = '0x7dcfff'
-normal.white       = '0xa9b1d6'
-bright.black       = '0x414868'
-bright.red         = '0xf7768e'
-bright.green       = '0x9ece6a'
-bright.yellow      = '0xe0af68'
-bright.blue        = '0x7aa2f7'
-bright.magenta     = '0xbb9af7'
-bright.cyan        = '0x7dcfff'
-bright.white       = '0xc0caf5'
-
 [cursor]
 style.shape        = 'Underline'
 thickness          = 0.25
+
+# TokyoNight Alacritty Colors
+# Default colors
+[colors.primary]
+background = '#222436'
+foreground = '#c8d3f5'
+
+#[colors.cursor]
+#cursor = '#c8d3f5'
+#text = '#222436'
+
+# Normal colors
+[colors.normal]
+black = '#1b1d2b'
+red = '#ff757f'
+green = '#c3e88d'
+yellow = '#ffc777'
+blue = '#82aaff'
+magenta = '#c099ff'
+cyan = '#86e1fc'
+white = '#828bb8'
+
+# Bright colors
+[colors.bright]
+black = '#444a73'
+red = '#ff757f'
+green = '#c3e88d'
+yellow = '#ffc777'
+blue = '#82aaff'
+magenta = '#c099ff'
+cyan = '#86e1fc'
+white = '#c8d3f5'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#ff966c'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#c53b53'
+
